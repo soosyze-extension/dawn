@@ -120,7 +120,7 @@
     border: 1px solid #e1e4e8;
     border-bottom-color: rgb(225, 228, 232);
     border-bottom-style: solid;
-    border-bottom-width: 1px; 
+    border-bottom-width: 1px;
 }
 .user-picture_default {
     position: relative;
@@ -135,7 +135,7 @@
 }
 .user-picture_default_username {
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5em;
@@ -191,11 +191,11 @@
 /* --------------------------- */
 /* ---------- TABLE ---------- */
 /* --------------------------- */
-.table > tbody > tr > td, 
-.table > tbody > tr > th, 
-.table > tfoot > tr > td, 
-.table > tfoot > tr > th, 
-.table > thead > tr > td, 
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
 .table > thead > tr > th {
     vertical-align: middle;
     padding: 1em;
@@ -212,38 +212,38 @@ thead{
     padding: 1em;
 }
 @media (max-width: 768px) {
-    .table > tbody > tr > td, 
-    .table > tbody > tr > th, 
-    .table > tfoot > tr > td, 
-    .table > tfoot > tr > th, 
-    .table > thead > tr > td, 
+    .table > tbody > tr > td,
+    .table > tbody > tr > th,
+    .table > tfoot > tr > td,
+    .table > tfoot > tr > th,
+    .table > thead > tr > td,
     .table > thead > tr > th {
         border: 0;
     }
-    .responsive table, 
-    .responsive thead, 
-    .responsive tbody, 
-    .responsive th, 
-    .responsive td, 
-    .responsive tr { 
-        display: block; 
+    .responsive table,
+    .responsive thead,
+    .responsive tbody,
+    .responsive th,
+    .responsive td,
+    .responsive tr {
+        display: block;
     }
     .responsive thead {
         display:none;
     }
-    .responsive td { 
+    .responsive td {
         position: relative;
         border: 0px solid transparent;
-        padding-left: 50% !important; 
+        padding-left: 50% !important;
         white-space: normal;
         text-align:right;
         border-bottom: 0;
     }
-    .responsive td:before { 
+    .responsive td:before {
         content: attr(data-title);
         position: absolute;
         left: 0;
-        width: 45%; 
+        width: 45%;
         height:100%;
         white-space: nowrap;
         text-overflow: ellipsis !important;
@@ -253,7 +253,7 @@ thead{
         padding-left: 1em;
     }
     .responsive tbody tr th a,
-    .responsive tbody tr th{ 
+    .responsive tbody tr th{
         background-color:#1c889e;
         color: #fff;
     }
@@ -383,8 +383,8 @@ label[data-tooltip]:before {
     color: #666;
 }
 .icon-pending_publication{
-   color: #dd9f3a;
+    color: #dd9f3a;
 }
 .icon-publish{
-   color: #2ecc71;
+    color: #2ecc71;
 }

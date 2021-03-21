@@ -38,7 +38,7 @@ textarea{
     transition: width .2s;
 }
 .img-thumbnail{
-    max-height: 150px; 
+    max-height: 150px;
 }
 .souligne{
     transition: width .2s;
@@ -165,9 +165,9 @@ textarea{
 }
 [type="checkbox"]:not(:checked) + label:before,
 [type="checkbox"]:checked + label:before {
-    left: 0; 
+    left: 0;
     top: -3px;
-    width: 65px; 
+    width: 65px;
     height: 30px;
     background: #D9534F;
     border-radius: 15px;
@@ -178,7 +178,7 @@ textarea{
 }
 [type="checkbox"]:not(:checked) + label:after,
 [type="checkbox"]:checked + label:after {
-    width: 20px; 
+    width: 20px;
     height: 20px;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
@@ -186,7 +186,7 @@ textarea{
     transition: all .2s;
     border-radius: 50%;
     background: #FFF;
-    top: 2px; 
+    top: 2px;
     left: 5px;
 }
 /* on checked */
@@ -195,7 +195,7 @@ textarea{
 }
 [type="checkbox"]:checked + label:after {
     background: #FFF;
-    top: 2px; 
+    top: 2px;
     left: 40px;
 }
 [type="checkbox"]:checked + label .ui,
@@ -222,11 +222,11 @@ textarea{
     color: #FFF;
 }
 [type="checkbox"]:focus + label:before {
-    outline: none; 
+    outline: none;
 }
 [type="checkbox"][disabled]:checked + label:before,
 [type="checkbox"][disabled]:not(:checked) + label:before{
-    background:#666; 
+    background:#666;
 }
 .btn-action{
     color: #333;

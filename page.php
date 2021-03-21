@@ -14,7 +14,9 @@
             </div>
         </div>
     </nav>
-    <h1><?php echo $icon; ?> <?php echo $title_main; ?></h1>
+
+    <h1><?php echo xss($icon); ?> <?php echo htmlspecialchars($title_main); ?></h1>
+
     <div class="souligne" ></div>
 </header>
 <div class="main-wrapper">
@@ -44,6 +46,9 @@
             <?php if (!empty($section[ 'content_header' ])): ?>
                 <?php echo $section[ 'content_header' ]; ?>
             <?php endif; ?>
+
+            <?php echo $section[ 'submenu' ]; ?>
+
             <?php echo $section[ 'content' ]; ?>
             <?php if (!empty($section[ 'content_footer' ])): ?>
                 <?php echo $section[ 'content_footer' ]; ?>
@@ -56,9 +61,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <footer>             
+            <footer>
                 <?php if (!empty($section[ 'footer' ])): ?>
-                    <hr>   
+                    <hr>
                     <?php echo $section[ 'footer' ]; ?>
 
                 <?php endif; ?>
